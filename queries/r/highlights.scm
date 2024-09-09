@@ -59,7 +59,17 @@
 
 ; Variables
 
-(identifier) @variable
+(binary_operator
+    lhs: (identifier) @variable
+    operator: "="
+    rhs: (_)
+)
+
+(binary_operator
+    lhs: (identifier) @variable
+    operator: "<-"
+    rhs: (_)
+)
 
 ; Namespace
 
