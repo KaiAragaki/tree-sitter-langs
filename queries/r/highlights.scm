@@ -6,7 +6,6 @@
 (float) @number
 (complex) @number
 
-(string) @string
 (string (string_content (escape_sequence) @string.escape))
 
 ; Comments
@@ -110,3 +109,7 @@
 ; Error
 
 (ERROR) @error
+
+; String
+
+(string) @string
